@@ -33,7 +33,7 @@ public class Window_Graph : MonoBehaviour
     public void ShowGraph(List<int> valueList)
     {
         float graphHeight = graphContainer.sizeDelta.y;
-        float yMaxium = 100f;
+        float yMaxium = 40f;
         float xSize = 50f;
 
         GameObject lastCircleGameObject = null;
